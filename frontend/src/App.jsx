@@ -14,7 +14,7 @@ import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ABU-UL-QASIM">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
